@@ -1,0 +1,4 @@
+https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-atlas_regional-effectifs-d-etudiants-inscrits_agregeables/records/?limit=10&offset=0&select=effectif&where=com_nom%3D%22Bordeaux%22+and+secteur%3D%22PU%22+and+aca_id%3D%22A04%22+and+annee_universitaire+in+%28%222021-2022%22%2C+%222022-2023%22%2C+%222023-2024%22%2C+%222024-2025%22%29+and+a_des_effectifs_ing%3D%22oui%22
+
+Ce qu'elle fait : 
+Cette URL interroge l'API du ministère de l'Enseignement supérieur pour récupérer les effectifs d'étudiants inscrits dans les établissements publics (secteur "PU") de la commune de Bordeaux (académie de Bordeaux, ID "A04") sur les 4 dernières années universitaires (2021-2025), en limitant les résultats à 10 enregistrements.

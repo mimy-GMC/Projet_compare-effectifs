@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparaison étudiants</title>
+    <link rel="icon" type="image/x-icon" href="../statistiques.png">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Bibliothèque Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Ton script JS -->
+    <script src="Scriptmbayame.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">   
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../Partie_leilath/leilath.html">Comparaison par Leilath</a></li>
+                <li><a href="mbayame.html">Comparaison par Mbayame</a></li>
+                <li><a href="../Partie_miryam/miryam.html">Comparaison par Miryam</a></li>
+                <li><a href="../Partie_clarissia/comparaison1.html">Comparaison par Clarissia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>
+        Comparaison des trois dernières années du nombre d'étudiants inscrits 
+        en Licence 2 MIASHS et en Licence 2 Psychologie 
+        à l'université de Toulouse 2 Jean Jaurès (UT2J)
+    </h1>
+
+    <main>
+
+        <section>
+            <h2>Nombre d'étudiants inscrits en L2 MIASHS à l'UT2J</h2>
+            <canvas id="Chart1"></canvas>
+        </section>
+
+        <section>
+            <h2>Nombre d'étudiants inscrits en L2 Psychologie à l'UT2J</h2>
+            <canvas id="chart2"></canvas>
+        </section>
+
+        <section class="analyse">
+
+            <h2>Commentaire</h2>
+
+            <p>
+                Au cours des dernières années universitaires, les effectifs d’étudiants 
+                en deuxième année de licence à l’UT2J ont évolué de manière différente 
+                selon les formations. L’analyse des données permet de comparer 
+                l’évolution des inscriptions en L2 MIASHS et en L2 Psychologie.
+            </p>
+
+            <h3 color="blue">Analyse</h3>
+
+            <p>
+                La licence MIASHS, qui combine les mathématiques appliquées et les 
+                sciences sociales, attire un profil d’étudiants assez spécifique. 
+                Les données montrent que le nombre d’inscriptions peut varier d’une 
+                année à l’autre. Ces variations peuvent être liées à la spécialisation 
+                de la formation, qui demande certaines compétences en mathématiques 
+                et en analyse, ce qui peut influencer les choix d’orientation 
+                des étudiants.
+            </p>
+
+    
+
+            <p>
+                De son côté, la licence de Psychologie présente généralement des 
+                effectifs plus élevés. Les données montrent une évolution plus stable 
+                du nombre d’inscriptions, avec parfois une augmentation selon les 
+                années universitaires. Cette tendance peut s’expliquer par l’intérêt 
+                important des étudiants pour les disciplines liées aux sciences 
+                humaines et au domaine de la psychologie.
+            </p>
+
+            <h3 color="blue">Comparaison globale</h3>
+
+            <p>
+                La comparaison entre les deux formations montre que les dynamiques 
+                d’effectifs peuvent varier selon les disciplines universitaires. 
+                Alors que MIASHS attire un public plus spécialisé, la licence de 
+                Psychologie semble toucher un public plus large. Cette analyse permet 
+                de mieux comprendre les différences d’attractivité entre les 
+                formations proposées à l’UT2J et l’évolution des inscriptions 
+                au fil des années.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
